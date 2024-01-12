@@ -1,4 +1,4 @@
-import React from "react";
+import React from "react"
 import './Navigation.css'
 
 const Navigation = () => {
@@ -9,10 +9,5 @@ const Navigation = () => {
         </nav>
     )
 }
-
-
-
-
-
 
 export default Navigation;
