@@ -4,11 +4,13 @@ import './ImageLinkForm.css'
 
 const ImageLinkForm = () => {
     return (
-        <div className="ImageLinkForm">
+        <div className="ImageLinkForm ">
             <p>{'This will do something. I have yet to decide what. 😁'}</p>
-            <div>
-                <input type="text" />
-                <button>Detect</button>
+            <div className="textButtonShadow centerReact">
+                <div className="centerReact">
+                    <input type="text" />
+                    <button>Detect</button>
+                </div>
             </div>
         </div>
     )

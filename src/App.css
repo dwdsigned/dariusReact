@@ -3,6 +3,11 @@ body, html {
   padding: 0;
 }
 
+.centerReact {
+  display: flex;
+  justify-content: center;
+}
+
 
 
 
