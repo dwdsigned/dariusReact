@@ -17,3 +17,5 @@ export class ParticlesContainer extends PureComponent {
     return <Particles options={options} init={this.customInit} />
   }
 }
+
+export default Particles
