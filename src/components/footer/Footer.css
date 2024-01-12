@@ -1,5 +1,14 @@
-footer {
+.page__footer {
     background-color: #340BB7;
     color: rgb(235 235 235);
     text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+  }
+
+  .page__footer p {
+    margin: 0;
   }

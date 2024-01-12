@@ -1,6 +1,7 @@
 import { useState } from 'react'
 import './App.css'
 import Navigation from './components/navigation/Navigation.jsx'
+import ImageLinkForm from './components/imageLinkForm/ImageLinkForm.jsx'
 import Footer from './components/footer/Footer'
 
 function App() {
@@ -9,8 +10,9 @@ function App() {
   return (
       <div className='App'>
         <Navigation />
-        {/* {<Logo />
         <ImageLinkForm />
+        {/* {<Logo />
+        
         <FaceRecognition />} */}
         {/* {<header>
           <nav>
