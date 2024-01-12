@@ -1,0 +1,15 @@
+nav {
+    display: flex;
+}
+
+
+
+#logo {
+    border: none;
+    height: 125px;
+    width: 125px;
+    margin: 25px 0 25px 25px;
+    background-image: url("../../assets/dwDev1.svg");
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
