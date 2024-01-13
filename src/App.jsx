@@ -2,7 +2,9 @@ import React, { Component } from 'react';
 import './App.css';
 import Navigation from './components/navigation/Navigation.jsx';
 import Rank from './components/rank/Rank.jsx';
+import SignIn from './components/SignIn/SignIn.jsx';
 import ImageLinkForm from './components/imageLinkForm/ImageLinkForm.jsx';
+import FoodRecognition from './components/FoodRecognition/FoodRecognition.jsx';
 import Footer from './components/footer/Footer';
 
 class App extends Component {
@@ -10,14 +12,17 @@ class App extends Component {
     super();
     this.state = {
       input: "",
+      imageUrl: ""
     };
   }
 
   onInputChange = (event) => {
+    this.setState({input: event.target.value})
     console.log(event.target.value);
   }
 
   onButtonSubmit = () => {
+    this.setState({ imageUrl: this.state.input})
     console.log('click');
   }
 
@@ -27,9 +32,9 @@ class App extends Component {
         {/* <ParticlesContainer className="particles"/> */}
         <Navigation />
         <Rank />
+        <SignIn />
         <ImageLinkForm onInputChange={this.onInputChange} onButtonSubmit={ this.onButtonSubmit }/>
-        {/* {<Logo />
-        <FaceRecognition />} */}
+        <FoodRecognition imageUrl={this.state.imageUrl}/>
         {/* {<header>
           <nav>
           <a href="#"><div id="logo"></div></a>
