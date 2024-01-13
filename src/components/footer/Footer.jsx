@@ -4,7 +4,7 @@ import './Footer.css'
 const Footer = () => {
     return (
       <footer className="page__footer">
-      <p>&copy 2023, Darius Williams. All Rights Reserved.</p>
+      <p>&copy; 2023, Darius Williams. All Rights Reserved.</p>
       </footer>
     )
 }
