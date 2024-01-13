@@ -1,6 +1,6 @@
 import { useState } from 'react'
 import './App.css'
-import ParticlesContainer from './components/Particles/Particles.jsx'
+// import ParticlesContainer from './components/Particles/Particles.jsx'
 import Navigation from './components/navigation/Navigation.jsx'
 import Rank from './components/rank/Rank.jsx'
 import ImageLinkForm from './components/imageLinkForm/ImageLinkForm.jsx'
@@ -11,7 +11,7 @@ function App() {
 
   return (
       <div className='App'>
-        <ParticlesContainer className="particles"/>
+        {/* <ParticlesContainer className="particles"/> */}
         <Navigation />
         <Rank />
         <ImageLinkForm />
